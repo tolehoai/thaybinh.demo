@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Varela', sans-serif;
+}
+audio { display:none;}
+.header {
+    /* to right bottom, */
+    background-image: linear-gradient(to right bottom, rgb(25, 32, 41), rgba(31, 40, 51, 0.85)), url(./img/truyen-thuyet-le-loi-1024x576.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    height: 100vh;
+    clip-path: ellipse(65% 58% at 52% 32%);
+    /* background-color: #f4f4f4; */
+    /* background-image: linear-gradient(315deg, #461220 0%, #e0d4ae 74%); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-title-name {
+    color: #d79922;
+    display: inline-block;
+}
+
+.header-title {
+    color: #d79922;
+    font-size: 80px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header-year {
+    color: #d79922;
+    display: inline-block;
+    margin-bottom: 200px;
+}
+
+.contain {
+    /* background-color: #f4f4f4; */
+    padding-bottom: 20px;
+}
+
+.contain-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.contain-item {
+    border: 1px solid #e9e9e9;
+    padding: 3px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: ease 0.2s;
+    cursor: pointer;
+    background-color: white;
+}
+
+.contain-item:hover {
+    box-shadow: 0 0.4rem 3.3rem rgba(0, 0, 0, .3);
+    transform: translateY(-.2rem);
+}
+
+.contain-item:hover .contain-item-title {
+    color: #a64ac9;
+}
+
+.contain-title {
+    display: inline-block;
+    margin: 15px 0;
+    margin-bottom: 55px;
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 4px solid #a64ac9;
+}
+
+.contain-item-img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contain-item-title {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: ease 0.1s;
+}
+
+.grid__colunm-5 {
+    margin: 12px 0;
+}
+
+.footer {
+    width: 100%;
+    height: 30px;
+    background-color: #222629;
+    color: #68c232;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
